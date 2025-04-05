@@ -1,0 +1,65 @@
+[
+  {
+    "portraitIntroTitle": "Hello",
+    "portraitIntroPara": "Liam Li - Insist on Digital Experiences"
+  },
+  {
+    "introTextTitle": "Hi there!",
+    "introTextPara": "I'm Liam Li, a passionate web developer based in Hong Kong. I specialize in creating innovative, harmonious, and user-friendly website interfaces to provide an excellent experience for visitors. Through my expertise in coding especially in the front-end, and my knowledge of retail, I hope to establish a powerful online presence for businesses, reaching more potential customers online and gaining a greater level of visibility. When I'm not coding, you can find me enjoying my off-hours to feel life. Feel free to check out this personal website established by me and get in touch if you would like to work together!"
+  },
+  {
+    "introImg": [
+      { "introImgPara": "Photography, Workout and Travelling." },
+      { "introImgPara": "" },
+      {
+        "introImgPara": "This is my personal website, which I have developed using my own code without using any framework."
+      },
+      {
+        "introImgPara": "This is a concept for a business website interface, created using the Figma design software by myself."
+      }
+    ]
+  },
+  {
+    "timeline": [
+      {
+        "timelineTitle": "Program in E-commerce and Business Management",
+        "timelinePara": "Following the completion of an extensive curriculum centred around a programme in retail, with particular emphasis on entrepreneurship, business management, and strategic marketing techniques. Throughout the academic journey, various projects have been carried out. These included the presentation of a storefront and collaboration in the digital enterprise known as Good-Time, as well as the enhancement of customer engagement with promotional strategies and the improvement of the user-friendliness of its website. These endeavors have garnered significant recognition from the corporate sector."
+      },
+      {
+        "timelineTitle": "Establishment and Operation of an E-store",
+        "timelinePara": "After managing an online store for three years, I gained a deep understanding of the intricacies of front-end consoles by implementing strategic marketing initiatives and retail practices. The e-store was initially present on Shopline and then migrated to WooCommerce based on WordPress. Concurrently, numerous plugins have been developed using my code via PHP and JavaScript. These plugins fulfil frontend and backend processes, which have been proven to be crucial in enhancing website functionality. Backend processes such as server management were overseen and domain function was ensured."
+      },
+      {
+        "timelineTitle": "Development of This Personal Website",
+        "timelinePara": "As the sole creator of this website, which was developed via HTML, CSS and JavaScript. When issues arise during the coding process, I methodically identify the underlying factors and devise effective solutions. If the issues are beyond my technical range, I search for solutions via the Internet, including artificial intelligence. It is crucial to understand the underlying causes of errors and the underlying mechanisms of the methods. I consider this personal website to be a significant project in my coding journey to date."
+      }
+    ]
+  },
+  {
+    "slides": [
+      {
+        "slideTextTitle": "Gaming with creativity",
+        "slideTextPara": ""
+      },
+      {
+        "slideTextTitle": "Live for the present",
+        "slideTextPara": "Life comprises work."
+      },
+      {
+        "slideTextTitle": "Coding with passion",
+        "slideTextPara": "Passion in programming and exploration."
+      },
+      {
+        "slideTextTitle": "Workout with a plan",
+        "slideTextPara": "Workout with a plan and stick to the plan."
+      },
+      {
+        "slideTextTitle": "Photographing with feeling",
+        "slideTextPara": "Photographing with feeling and listening to the images."
+      }
+    ]
+  },
+  {
+    "footerText": "Copyright ©2024 Liam, Website author. All rights reserved."
+  }
+]
