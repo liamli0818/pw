@@ -789,7 +789,7 @@ img:hover:not(.introImg, .imgPopImg) {
 .timeline div:last-child {
   overflow: hidden;
   margin: 0;
-  width: auto;
+  aspect-ratio: 16/9;
   height: 225px;
   border-radius: 0.5em;
   animation: fadeIn ease-in-out forwards;
@@ -798,6 +798,7 @@ img:hover:not(.introImg, .imgPopImg) {
   scale: 0.7;
   opacity: 0;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2em);
 }
 .tlpContainer {
   text-align: center;
@@ -838,7 +839,9 @@ img:hover:not(.introImg, .imgPopImg) {
   scale: 0.25;
 }
 .instancesImg {
-  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  margin: auto;
   height: 100%;
   width: auto;
   transition: 0.25s ease-in-out;
