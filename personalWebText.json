@@ -26,12 +26,16 @@
         "timelinePara": "Following the completion of an extensive curriculum centred around a programme in retail, with particular emphasis on entrepreneurship, business management, and strategic marketing techniques. Throughout the academic journey, various projects have been carried out. These included the presentation of a storefront and collaboration in the digital enterprise known as Good-Time, as well as the enhancement of customer engagement with promotional strategies and the improvement of the user-friendliness of its website. These endeavors have garnered significant recognition from the corporate sector."
       },
       {
-        "timelineTitle": "Establishment and Operation of an E-store",
-        "timelinePara": "After managing an online store for three years, I gained a deep understanding of the intricacies of front-end consoles by implementing strategic marketing initiatives and retail practices. The e-store was initially present on Shopline and then migrated to WooCommerce based on WordPress. Concurrently, numerous plugins have been developed using my code via PHP and JavaScript. These plugins fulfil frontend and backend processes, which have been proven to be crucial in enhancing website functionality. Backend processes such as server management were overseen and domain function was ensured."
-      },
-      {
         "timelineTitle": "Development of This Personal Website",
         "timelinePara": "As the sole creator of this website, which was developed via HTML, CSS and JavaScript. When issues arise during the coding process, I methodically identify the underlying factors and devise effective solutions. If the issues are beyond my technical range, I search for solutions via the Internet, including artificial intelligence. It is crucial to understand the underlying causes of errors and the underlying mechanisms of the methods. I consider this personal website to be a significant project in my coding journey to date."
+      },
+      {
+        "timelineTitle": "Development of React-Based Projects",
+        "timelinePara": "This GitHub website serves as a repository for projects developed utilising the React framework. The projects encompassed by this undertaking include To Do List, Calculator and Clock. It is evident that these projects make extensive use of condition rendering. <a target=\"_blank\" href=\"https://liamli0818.github.io/react-application/\">Project Link</a>"
+      },
+      {
+        "timelineTitle": "Development of A Pixel Art Paint Application",
+        "timelinePara": "This GitHub website is employed for the storage of a function related to pixel art painting. The application provides users with the ability to create illustrations using a range of colours and filters. <a target=\"_blank\" href=\"https://liamli0818.github.io/js-pixelArtPaint/\">Project Link</a>"
       }
     ]
   },
@@ -61,5 +65,11 @@
   },
   {
     "footerText": "Copyright ©2024 Liam, Website author. All rights reserved."
+  },
+  {
+    "NTUTimeline": {
+      "timelineTitle": "Establishment and Operation of an E-store",
+      "timelinePara": "After managing an online store for three years, I gained a deep understanding of the intricacies of front-end consoles by implementing strategic marketing initiatives and retail practices. The e-store was initially present on Shopline and then migrated to WooCommerce based on WordPress. Concurrently, numerous plugins have been developed using my code via PHP and JavaScript. These plugins fulfil frontend and backend processes, which have been proven to be crucial in enhancing website functionality. Backend processes such as server management were overseen and domain function was ensured."
+    }
   }
 ]
