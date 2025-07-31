@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./personalWeb.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="nvBlk">
+      <input type="checkbox" id="nvBarActive" />
+      <label class="opennvBar btnTransit" for="nvBarActive">
+        <img alt="all" src="./svg/layout.svg" />
+        <ul class="nvul">
+          <li class="nvoption nvo1">
+            <img alt="nv1" src="./svg/home.svg" />
+            <span class="paragraph">Top</span>
+          </li>
+          <li class="nvoption nvo2">
+            <img alt="nv2" src="./svg/pros.svg" />
+            <span class="paragraph">Pros</span>
+          </li>
+          <li class="nvoption nvo3">
+            <img alt="nv3" src="./svg/about.svg" />
+            <span class="paragraph">About</span>
+          </li>
+          <li class="nvoption nvo4">
+            <img alt="nv4" src="./svg/timeline.svg" />
+            <span class="paragraph">Timeline</span>
+          </li>
+          <li class="nvoption nvo5">
+            <img alt="nv5" src="./svg/instances.svg" />
+            <span class="paragraph">Instances</span>
+          </li>
+        </ul>
+      </label>
+      <label class="closenvBar" for="nvBarActive"></label>
+    </div>
+    <div class="pop">
+      <div class="popBackdrop"></div>
+      <div class="imgContainer popCtr">
+        <img class="imgPopImg" alt="img" loading="lazy" src="./" />
+        <span class="imgPopSpan"></span>
+      </div>
+      <form class="contactInputContainer popCtr" method="POST">
+        <input
+          type="hidden"
+          name="access_key"
+          value="052dbc6e-1801-4e0d-8ab0-38f0360fc614"
+        />
+        <input
+          type="checkbox"
+          name="botcheck"
+          class="hidden"
+          style="display: none"
+        />
+        <span class="ctitle">Contact Me</span>
+        <div>
+          <input
+            type="email"
+            name="email"
+            maxlength="40"
+            placeholder=""
+            required
+          /><label class="inputL" for="email">Email</label>
+        </div>
+        <div>
+          <input name="name" maxlength="40" placeholder="" required /><label
+            class="inputL"
+            for="name"
+            >How can I call you?</label
+          >
+        </div>
+        <div>
+          <textarea
+            rows="9"
+            maxlength="500"
+            name="message"
+            placeholder=""
+            required
+          ></textarea
+          ><label class="inputL" for="message">How can I help you?</label>
+        </div>
+        <div class="h-captcha" data-captcha="false"></div>
+        <div id="subBtnDiv">
+          <button id="submitBtn">
+            <img class="tick" alt="tick" src="./svg/tick.svg" />
+            <div class="subCircle btnTransit">
+              <img class="" alt="submit" src="./svg/mail.svg" />
+            </div>
+          </button>
+        </div>
+      </form>
+      <div class="sBtn btnTransit">
+        <img
+          class="imgCloseBtn"
+          type="button"
+          alt="close"
+          src="./svg/minimaize.svg"
+        />
+      </div>
+    </div>
+
+    <div id="helloBlk">
+      <video class="videoOverkay" autoplay loop muted playsinline>
+        <source src="./video/aurora.mp4" type="video/mp4" />
+      </video>
+      <!-- <div id="helloBackdrop"></div> -->
+      <div id="homecontentContainer">
+        <div id="contentBlk">
+          <div class="portrait">
+            <img alt="portrait" src="./images/portrait.jpg" />
+          </div>
+          <label class="header strokeText"></label>
+          <label class="paragraph"></label>
+        </div>
+      </div>
+      <div id="scrolldownBtn">
+        <img id="scrollIcon" alt="scroll" src="./svg/double-arrow.svg" />
+      </div>
+    </div>
+    <div id="prosBlock">
+      <ul id="prosUl" class="ulBlock">
+        <li class="liBlock">
+          <div class="contentDiv">
+            <img
+              class="icon"
+              alt="pros1"
+              loading="lazy"
+              decoding="async"
+              src="./svg/html.svg"
+            />
+            <span class="paragraph" id="htmlTitle">HTML</span>
+          </div>
+        </li>
+        <li class="liBlock">
+          <div class="contentDiv">
+            <img
+              class="icon"
+              alt="pros2"
+              loading="lazy"
+              decoding="async"
+              src="./svg/css.svg"
+            />
+            <span class="paragraph" id="cssTitle">CSS</span>
+          </div>
+        </li>
+        <li class="liBlock">
+          <div class="contentDiv">
+            <img
+              class="icon"
+              alt="pros3"
+              loading="lazy"
+              decoding="async"
+              src="./svg/javascript.svg"
+            />
+            <span class="paragraph" id="jsTitle">JavaScript</span>
+          </div>
+        </li>
+        <li class="liBlock">
+          <div class="contentDiv">
+            <img
+              class="icon"
+              alt="pros4"
+              loading="lazy"
+              decoding="async"
+              src="./svg/sql.svg"
+            />
+            <span class="paragraph" id="sqlTitle">SQL</span>
+          </div>
+        </li>
+        <li class="liBlock">
+          <div class="contentDiv">
+            <img
+              class="icon"
+              alt="pros5"
+              loading="lazy"
+              decoding="async"
+              src="./svg/python.svg"
+            />
+            <span class="paragraph" id="pythonTitle">Python</span>
+          </div>
+        </li>
+        <li class="liBlock">
+          <div class="contentDiv">
+            <img
+              class="icon"
+              alt="pros6"
+              loading="lazy"
+              decoding="async"
+              src="/svg/php.svg"
+            />
+            <span class="paragraph" id="ppTitle">PHP</span>
+          </div>
+        </li>
+        <li class="liBlock">
+          <div class="contentDiv">
+            <img
+              class="icon"
+              alt="pros7"
+              loading="lazy"
+              decoding="async"
+              src="/svg/react.svg"
+            />
+            <span class="paragraph" id="aeTitle">React</span>
+          </div>
+        </li>
+        <li class="liBlock">
+          <div class="contentDiv">
+            <img
+              class="icon"
+              alt="pros8"
+              loading="lazy"
+              decoding="async"
+              src="/svg/photoshop.svg"
+            />
+            <span class="paragraph" id="psTitle">Photoshop</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="introBlk">
+      <video class="videoBg" autoplay loop muted playsinline>
+        <source src="./video/introbg.mp4" type="video/mp4" />
+      </video>
+      <div id="introTextContainer">
+        <span class="paragraph"></span>
+        <span class="paragraph"></span>
+
+        <div id="introBtn" type="button">
+          <img id="introBtnIcon" alt="extendbtn" src="./svg/arrow-up.svg" />
+        </div>
+      </div>
+      <div id="introImgContainer">
+        <div class="introImgGrid">
+          <div class="introGridContainer">
+            <img
+              class="introImg"
+              alt="1"
+              loading="lazy"
+              decoding="async"
+              data-comment=""
+              src="./images/photography.JPG"
+            />
+          </div>
+          <div class="introGridContainer">
+            <img
+              class="introImg"
+              alt="2"
+              loading="lazy"
+              decoding="async"
+              src="./images/code.jpg"
+            />
+          </div>
+          <div class="introGridContainer">
+            <img
+              class="introImg"
+              alt="3"
+              loading="lazy"
+              decoding="async"
+              data-comment=""
+              src="./images/thisweb.gif"
+            />
+          </div>
+          <div class="introGridContainer">
+            <img
+              class="introImg"
+              alt="4"
+              loading="lazy"
+              decoding="async"
+              data-comment=""
+              src="./images/intro3.jpg"
+            />
+          </div>
+        </div>
+        <div class="introImgBarContainer"><div class="introImgBar"></div></div>
+      </div>
+    </div>
+    <div id="instancesBlock">
+      <div class="timelinestickyBg"></div>
+      <div class="timelineContainer">
+        <div class="timeline">
+          <div class="tlpContainer">
+            <span class="paragraph"></span>
+          </div>
+          <div class="moveline"></div>
+          <div>
+            <img
+              class="instancesImg"
+              alt="timeline1"
+              loading="lazy"
+              decoding="async"
+              data-comment=""
+              src="./images/timeline1.jpg"
+            />
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="tlpContainer">
+            <span class="paragraph"></span>
+          </div>
+          <div class="moveline"></div>
+          <div>
+            <img
+              class="instancesImg"
+              alt="timeline2"
+              loading="lazy"
+              decoding="async"
+              data-comment=""
+              src="./images/thisweb.gif"
+            />
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="tlpContainer">
+            <span class="paragraph"></span>
+          </div>
+          <div class="moveline"></div>
+          <div>
+            <img
+              class="instancesImg"
+              alt="timeline3"
+              loading="lazy"
+              decoding="async"
+              data-comment=""
+              src="./images/timeline_react.jpg"
+            />
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="tlpContainer">
+            <span class="paragraph"></span>
+          </div>
+          <div class="moveline"></div>
+          <div>
+            <img
+              class="instancesImg"
+              alt="timeline3"
+              loading="lazy"
+              decoding="async"
+              data-comment=""
+              src="./images/timeline_paint.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sliderBLk">
+      <video class="videoBg" autoplay loop muted playsinline>
+        <source src="./video/instancesbg.mp4" type="video/mp4" />
+      </video>
+      <div id="slider">
+        <div id="wrapper">
+          <div class="slide">
+            <iframe
+              src="https://www.youtube.com/embed/pgABCHJM1ZQ?si=j84aCFofgdF2B17n"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <!-- <img class="slideImg" alt="slide1" loading="lazy" src="./images/"> -->
+            <span class="slideText paragraph">
+              <img class="shiftIcon" src="./svg/shift.svg" />
+            </span>
+          </div>
+          <div class="slide">
+            <img
+              class="slideImg"
+              alt="slide2"
+              loading="lazy"
+              src="./images/life.JPG"
+            />
+            <span class="slideText paragraph"> </span>
+          </div>
+          <div class="slide">
+            <img
+              class="slideImg"
+              alt="slide3"
+              loading="lazy"
+              data-comment=""
+              src="./images/code.jpg"
+            />
+            <span class="slideText paragraph"> </span>
+          </div>
+          <div class="slide">
+            <img
+              class="slideImg"
+              alt="slide4"
+              loading="lazy"
+              data-comment=""
+              src="./images/workout.jpg"
+            />
+            <span class="slideText paragraph"> </span>
+          </div>
+          <div class="slide">
+            <img
+              class="slideImg"
+              alt="slide5"
+              loading="lazy"
+              data-comment=""
+              src="./images/photography.JPG"
+            />
+            <span class="slideText paragraph"> </span>
+          </div>
+        </div>
+      </div>
+      <div id="slideBtn">
+        <div type="button" class="prev btnTransit">
+          <img alt="pre" src="./svg/arrow-up.svg" />
+        </div>
+        <div type="button" class="next btnTransit">
+          <img alt="next" src="./svg/arrow-up.svg" />
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span class="paragraph"></span>
+      <div class="contactBtn btnTransit">
+        <img alt="contact" src="./svg/contact.svg" />
+      </div>
+    </div>
+  </body>
+  <script src="/peronsalWeb.js"></script>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+</html>
