@@ -325,7 +325,7 @@ contactInputContainer.addEventListener("submit", function (e) {
   }
 });
 //fetch text content
-fetch("/personalWebText.json")
+fetch("./personalWebText.json")
   .then((res) => res.json())
   .then((data) => {
     const personalWebTextdata = data;
