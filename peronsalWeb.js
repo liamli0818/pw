@@ -188,8 +188,18 @@ function closeimgPop() {
 popBackdrop.addEventListener("click", closeimgPop);
 sBtn.addEventListener("click", closeimgPop);
 
-//
+//contactpop
+const contactBtn = document.querySelectorAll(".contactBtn");
 const contactInputContainer = document.querySelector(".contactInputContainer");
+contactBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    pop.style.pointerEvents = "all";
+    pop.style.opacity = "1";
+    imgContainer.style.display = "none";
+    contactInputContainer.style.display = "grid";
+    contactInputContainer.style.transform = "scale(1)";
+  });
+});
 
 //slideBtn
 const inputs = document.querySelectorAll(
@@ -414,16 +424,4 @@ fetch("./personalWebText.json")
       .querySelector(".footer")
       .getElementsByTagName("span");
     footerText[0].innerHTML = personalWebTextdata[5].footerText;
-
-    //contactpop
-    const contactBtns = document.querySelectorAll(".contactBtn");
-    contactBtns.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        pop.style.pointerEvents = "all";
-        pop.style.opacity = "1";
-        imgContainer.style.display = "none";
-        contactInputContainer.style.display = "grid";
-        contactInputContainer.style.transform = "scale(1)";
-      });
-    });
   });
