@@ -23,7 +23,7 @@
     "timeline": [
       {
         "timelineTitle": "Program in E-commerce and Business Management",
-        "timelinePara": "Following the completion of an extensive curriculum centred around a programme in retail, with particular emphasis on entrepreneurship, business management, and strategic marketing techniques. Throughout the academic journey, various projects have been carried out. These included the presentation of a storefront and collaboration in the digital enterprise known as Good-Time, as well as the enhancement of customer engagement with promotional strategies and the improvement of the user-friendliness of its website. These endeavors have garnered significant recognition from the corporate sector."
+        "timelinePara": "Following the completion of an extensive curriculum centred around a programme in retail, with particular emphasis on entrepreneurship, business management, and strategic marketing techniques. Throughout the academic journey, various projects have been carried out. These included the presentation of a storefront and collaboration in the digital enterprise known as <a target=\"_blank\" href=\"https://www.good-time.online/\">Good-Time</a>, as well as the enhancement of customer engagement with promotional strategies and the improvement of the user-friendliness of its website. These endeavors have garnered significant recognition from the corporate sector."
       },
       {
         "timelineTitle": "Development of This Personal Website",
@@ -73,3 +73,4 @@
     }
   }
 ]
+
